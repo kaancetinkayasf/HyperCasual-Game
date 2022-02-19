@@ -30,7 +30,7 @@ public class ShopUI : MonoBehaviour
 
     private void Awake()
     {
-        if (PlayerPrefs.HasKey("health") && PlayerPrefs.HasKey("diamondValue") && PlayerPrefs.HasKey("healthPrice") && PlayerPrefs.HasKey("diamondEarningsPrice"))
+        if (PlayerPrefs.HasKey("healthValue") && PlayerPrefs.HasKey("diamondEarningValue") && PlayerPrefs.HasKey("healthPrice") && PlayerPrefs.HasKey("diamondEarningsPrice"))
         {
             return;
         }
